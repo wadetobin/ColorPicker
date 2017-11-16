@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		385FB17A1FBE2CA6008C5222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FB1791FBE2CA6008C5222 /* AppDelegate.swift */; };
-		385FB17C1FBE2CA6008C5222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FB17B1FBE2CA6008C5222 /* ViewController.swift */; };
 		385FB17F1FBE2CA6008C5222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385FB17D1FBE2CA6008C5222 /* Main.storyboard */; };
 		385FB1811FBE2CA6008C5222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385FB1801FBE2CA6008C5222 /* Assets.xcassets */; };
 		385FB1841FBE2CA6008C5222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385FB1821FBE2CA6008C5222 /* LaunchScreen.storyboard */; };
+		385FB18C1FBE2EE8008C5222 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FB18B1FBE2EE8008C5222 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		385FB1761FBE2CA6008C5222 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		385FB1791FBE2CA6008C5222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		385FB17B1FBE2CA6008C5222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		385FB17E1FBE2CA6008C5222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		385FB1801FBE2CA6008C5222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385FB1831FBE2CA6008C5222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385FB1851FBE2CA6008C5222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385FB18B1FBE2EE8008C5222 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				385FB1791FBE2CA6008C5222 /* AppDelegate.swift */,
-				385FB17B1FBE2CA6008C5222 /* ViewController.swift */,
 				385FB17D1FBE2CA6008C5222 /* Main.storyboard */,
+				385FB18B1FBE2EE8008C5222 /* PickerViewController.swift */,
 				385FB1801FBE2CA6008C5222 /* Assets.xcassets */,
 				385FB1821FBE2CA6008C5222 /* LaunchScreen.storyboard */,
 				385FB1851FBE2CA6008C5222 /* Info.plist */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385FB17C1FBE2CA6008C5222 /* ViewController.swift in Sources */,
+				385FB18C1FBE2EE8008C5222 /* PickerViewController.swift in Sources */,
 				385FB17A1FBE2CA6008C5222 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
