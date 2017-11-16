@@ -47,9 +47,8 @@ class PickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         textLabel.text = colors[row]
-        let bgColor = bgColors[row]
+        view.backgroundColor = bgColors[row]
         
-        view.backgroundColor = bgColor
     }
 
     
